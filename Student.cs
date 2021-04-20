@@ -12,7 +12,7 @@ namespace LinqPractice
             get;
             set;
         }
-        public int Age;
+        public int Age { get; set; }
         public int StandardID;
 
         public override string ToString()
